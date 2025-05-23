@@ -55,7 +55,7 @@ export const skills = [
       {
         name: "VS Code",
         image:
-          "hhttps://i.ibb.co/DPPYHFBN/vsCode.png",
+          "https://i.ibb.co/DPPYHFBN/vsCode.png",
       },
       {
         name: "Canva",

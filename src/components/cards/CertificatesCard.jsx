@@ -56,6 +56,7 @@ const ViewButton = styled.a`
   }
 `;
 
+
 const Details = styled.div`
   width: 100%;
   display: flex;
@@ -77,6 +78,17 @@ const Title = styled.div`
   text-align: center;
 `;
 
+const Date = styled.div`
+  font-size: 12px;
+  margin-left: 2px;
+  font-weight: 400;
+  text-align: center;
+  color: ${({ theme }) => theme.text_secondary + 80};
+  @media only screen and (max-width: 768px) {
+    font-size: 10px;
+  }
+`;
+
 const CertificatesCard = ({ certificates }) => {
   return (
     <Card>
@@ -89,7 +101,9 @@ const CertificatesCard = ({ certificates }) => {
       </ImageWrapper>
       <Details>
         <Title>{certificates.title}</Title>
+        <Date>{certificates.date}</Date>
       </Details>
+      
     </Card>
   );
 };
