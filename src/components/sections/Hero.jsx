@@ -3,15 +3,13 @@ import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
 import HeroImg from "../../images/Puneet.jpg";
-// import HeroBgAnimation from "../HeroBgAnimation";
-// import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import {
   headContainerAnimation,
   headContentAnimation,
   headTextAnimation,
 } from "../../utils/motion";
-import StarCanvas from "../canvas/Stars";
+// import StarCanvas from "../canvas/Stars";
 
 const HeroContainer = styled.div`
   display: flex;
@@ -140,7 +138,7 @@ const ResumeButton = styled.a`
   text-align: center;
   padding: 16px 0;
 
-  background: hsla(271, 100%, 50%, 1);
+  background:hsla(271, 100%, 50%, 1);
 
   box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
   border-radius: 50px;
@@ -167,7 +165,7 @@ const Img = styled.img`
   height: 100%;
   max-width: 400px;
   max-height: 400px;
-  border: 3px solid ${({ theme }) => theme.primary};
+  border: 2px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 640px) {
     max-width: 280px;
@@ -192,11 +190,6 @@ const HeroBg = styled.div`
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-
-  // @media (max-width: 960px) {
-  //   justify-content: center;
-  //   padding: 0 0px;
-  // }
 `;
 
 const Hero = () => {
@@ -204,8 +197,7 @@ const Hero = () => {
     <div id="About">
       <HeroContainer>
         <HeroBg>
-          <StarCanvas />
-          {/* <HeroBgAnimation /> */}
+          {/* <StarCanvas /> */}
         </HeroBg>
 
         <motion.div {...headContainerAnimation}>
@@ -239,9 +231,7 @@ const Hero = () => {
             </HeroLeftContainer>
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
-                {/* <Tilt> */}
                   <Img src={HeroImg} alt="Puneet Yadav" />
-                {/* </Tilt> */}
               </motion.div>
             </HeroRightContainer>
           </HeroInnerContainer>

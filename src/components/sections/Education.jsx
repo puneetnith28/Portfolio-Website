@@ -4,7 +4,6 @@ import "react-vertical-timeline-component/style.min.css";
 import styled from "styled-components";
 import { education } from "../../data/constants";
 import EducationCard from "../cards/EducationCard";
-// import EarthCanvas from "../canvas/Earth";
 
 const Container = styled.div`
   display: flex;
@@ -59,7 +58,7 @@ const Education = () => {
             marginBottom: "40px",
           }}
         >
-          Every step in my education has contributed to my growth and learning. Here’s a look at my academic background.
+          My academic journey has been a continuous path of growth and learning. Here's a brief summary.
         </Desc>
 
         <VerticalTimeline>
@@ -67,7 +66,6 @@ const Education = () => {
             <EducationCard key={`education-${index}`} education={education} />
           ))}
         </VerticalTimeline>
-        {/* <EarthCanvas /> */}
       </Wrapper>
     </Container>
   );

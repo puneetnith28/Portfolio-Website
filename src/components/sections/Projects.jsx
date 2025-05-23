@@ -107,7 +107,6 @@ const CardContainer = styled.div`
 const Projects = () => {
   const [toggle, setToggle] = useState("all");
 
-  // Filtered projects based on toggle
   const filteredProjects =
     toggle === "all"
       ? projects
@@ -118,7 +117,7 @@ const Projects = () => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          Exploring, creating, and improving—these projects represent my hands-on experience and growth.
+          These projects highlight my ability to explore, build, and enhance ideas through hands-on experience.
         </Desc>
 
         <ToggleButtonGroup>

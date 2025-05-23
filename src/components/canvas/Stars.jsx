@@ -4,7 +4,6 @@ import { Points, PointMaterial, Preload } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
 import styled from "styled-components";
 
-// Enhanced full-screen background with a deep space gradient
 const StyledCanvasWrapper = styled.div`
   width: 100vw;
   height: 100vh;
@@ -15,13 +14,12 @@ const StyledCanvasWrapper = styled.div`
   z-index: -1;
 `;
 
-// Helper to generate star colors (white, blue, pink, yellow)
 function generateStarColors(count) {
   const palette = [
-    [1, 1, 1],       // white
-    [0.7, 0.8, 1],   // blue-white
-    [1, 0.85, 0.7],  // yellow-white
-    [1, 0.7, 0.95],  // pinkish
+    [1, 1, 1],       
+    [0.7, 0.8, 1],   
+    [1, 0.85, 0.7],  
+    [1, 0.7, 0.95],  
   ];
   const colors = new Float32Array(count * 3);
   for (let i = 0; i < count; i++) {
@@ -33,9 +31,8 @@ function generateStarColors(count) {
 
 const Stars = (props) => {
   const ref = useRef();
-  const STAR_COUNT = 8000;
+  const STAR_COUNT = 5000;
 
-  // Generate positions and colors for the stars
   const [data] = useState(() => ({
     positions: random.inSphere(new Float32Array(STAR_COUNT * 3), { radius: 1.8 }),
     colors: generateStarColors(STAR_COUNT),

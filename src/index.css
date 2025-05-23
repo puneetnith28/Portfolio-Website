@@ -14,24 +14,20 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-/* width */
 ::-webkit-scrollbar {
   width: 4px;
   height: 80px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #222a35;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #575c66;
   border-radius: 6px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #626970;
 }

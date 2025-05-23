@@ -1,6 +1,6 @@
 import React from "react";
 import { VerticalTimeline } from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
+// import "react-vertical-timeline-component/style.min.css";
 import styled from "styled-components";
 import { experiences } from "../../data/constants";
 import ExperienceCard from "../cards/ExperienceCard";
@@ -59,7 +59,7 @@ const Experience = () => {
             marginBottom: "40px",
           }}
         >
-         A journey of learning, contributing, and evolving with every experience I embrace.
+         Learning from every step, contributing with purpose, and evolving through every challenge.
         </Desc>
 
         <VerticalTimeline>

@@ -7,14 +7,11 @@ export const Bio = {
   ],
   description:
     "I’m an explorer in the world of technology, constantly learning and building.I have a strong passion for Web development and UI/UX designing. I enjoy experimenting with new ideas, always looking for ways to improve and grow.",
-  github: "https://github.com/puneetnith28",
   resume:
     "https://drive.google.com/file/d/1jg1rP_IpV5-FNu3RqqE3SbEwo9tbyC8U/view?usp=drive_link",
   linkedin:
     "https://www.linkedin.com/in/puneet-yadav-541166325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
-  twitter: "https://x.com/puneet461625?t=6NPLFaRCb35nOVy3RCgHsQ&s=09",
   insta: "https://www.instagram.com/puneetyadav1625?igsh=MWk5d2ViMTA3YWt1bg==/",
-  // facebook: "https://www.facebook.com/rishav.chanda.165/",
 };
 
 export const skills = [
@@ -28,21 +25,17 @@ export const skills = [
       },
       {
         name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        image: "https://i.ibb.co/bwVZShx/htm.webp",
       },
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://i.ibb.co/wNxk3wLn/css3.png",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "Tailwind CSS",
-        image: "https://i.ibb.co/vvV9zzt8/download-1.png",
+          "https://i.ibb.co/QvdNJ9VG/javascript.webp",
       },
     ],
   },
@@ -52,17 +45,17 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
+          "https://i.ibb.co/DDzd6jtJ/git.png",
       },
       {
         name: "GitHub",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://i.ibb.co/S7dYjsvw/github1.webp",
       },
       {
         name: "VS Code",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "https://i.ibb.co/B2t1cH4L/vsCode.png",
       },
       {
         name: "Canva",
@@ -72,7 +65,7 @@ export const skills = [
       {
         name: "Figma",
         image:
-          "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
+          "https://i.ibb.co/Zpx8kdPt/figma.webp",
       },
     ],
   },
@@ -99,7 +92,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
+    img: "https://i.ibb.co/chL31dtx/gdsc1.png",
     role: "Volunteer",
     company: "DSC NIT Hamirpur",
     date: "Jan 2025 - Present",
@@ -123,7 +116,6 @@ export const education = [
     img: "https://i.ibb.co/NdXfZX5B/n-i-t-hamirpur-logo-k9i9rshtvwz2dvm5.png",
     school: "National Institute of Technology, Hamirpur",
     date: "Aug 2024 - May 2028",
-    // grade: "7.5 CGPA",
     desc: "I'm pursuing a B.Tech in CSE at NIT Hamirpur, focusing on core subjects like Data Structures & Algorithms, and Web Development. Alongside academics, I actively participate in hackathons, coding events and other related events to build real-world skills.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
@@ -162,23 +154,13 @@ export const projects = [
   {
     id: 0,
     title: "Weather-App",
-    // date: "Jan 2025",
     description:
       "A clean, responsive weather application built using HTML, CSS, and JavaScript. It fetches real-time weather data based on the city name input and displays the current weather, humidity, wind speed, and a 4-day forecast. The app also handles errors gracefully when an invalid city is entered.",
     image:
       "https://i.ibb.co/0pkJKy4W/Screenshot-2025-05-22-140236.png",
-    // tags: ["HTML", "CSS", "JavaScript"],
     category: "web app",
     github: "https://github.com/puneetnith28/Weather-App",
     liveLink: "https://appweatherpy.netlify.app/",
-    // member: [
-    //   {
-    //     name: "Puneet Yadav",
-    //     img: "https://i.ibb.co/Rkv2xCbK/Puneet.jpg",
-    //     linkedin: "https://www.linkedin.com/in/puneet-yadav-541166325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    //     github: "https://github.com/puneetnith28/",
-    //   },
-    // ],
   },
   {
     id: 1,
@@ -210,7 +192,7 @@ export const projects = [
     image:
       "https://i.ibb.co/CsBgGn1V/Screenshot-2025-05-22-143831.png",
     category: "web app",
-    github: "https://github.com/puneetnith28/Quiz-App",
+    github: "https://github.com/puneetnith28/Portfolio-Website",
     liveLink: "https://uizsapp.netlify.app/",
   },
 ];
