@@ -60,7 +60,6 @@ const Skill = styled.div`
   max-width: 500px;
   background-color: rgba(17, 25, 40, 0.83);
   border: 1px solid rgba(255, 255, 255, 0.125);
-  // box-shadow: 0 0 12px 4px rgba(213, 208, 208, 0.);5
   box-shadow: rgba(213, 208, 208, 0.5) 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;
@@ -93,9 +92,9 @@ const SkillList = styled.div`
 const SkillItem = styled.div`
   font-size: 16px;
   font-weight: 400;
-  color: ${({ theme }) => theme.text_primary + 80};
-  border: 1px solid ${({ theme }) => theme.text_primary + 80};
-  border-radius: 12px;
+  // color: ${({ theme }) => theme.text_primary + 80};
+  // border: 1px solid ${({ theme }) => theme.text_primary + 80};
+  border-radius: 25px;
   padding: 12px 16px;
   display: flex;
   align-items: center;
@@ -112,8 +111,8 @@ const SkillItem = styled.div`
   }
 `;
 const SkillImage = styled.img`
-  width: 24px;
-  height: 24px;
+  width: 70px;
+  height:70px;
 `;
 
 const Skills = () => {
@@ -139,7 +138,7 @@ const Skills = () => {
                   {skill.skills.map((item, index_x) => (
                     <SkillItem key={`skill-x-${index_x}`}>
                       <SkillImage src={item.image} />
-                      {item.name}
+                      {/* {item.name} */}
                     </SkillItem>
                   ))}
                 </SkillList>

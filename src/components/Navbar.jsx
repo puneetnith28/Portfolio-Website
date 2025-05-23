@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link as LinkR } from "react-router-dom";
 import styled, { useTheme } from "styled-components";
-import { Bio } from "../data/constants";
+// import { Bio } from "../data/constants";
 import { MenuRounded } from "@mui/icons-material";
 
 const Nav = styled.div`
@@ -60,36 +60,36 @@ const NavLink = styled.a`
   }
 `;
 
-const ButtonContainer = styled.div`
-  width: 80%;
-  height: 100%;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  padding: 0 6px;
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
-`;
+// const ButtonContainer = styled.div`
+//   width: 80%;
+//   height: 100%;
+//   display: flex;
+//   justify-content: end;
+//   align-items: center;
+//   padding: 0 6px;
+//   @media screen and (max-width: 768px) {
+//     display: none;
+//   }
+// `;
 
-const GithubButton = styled.a`
-  border: 1px solid ${({ theme }) => theme.primary};
-  color: ${({ theme }) => theme.primary};
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  border-radius: 20px;
-  cursor: pointer;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: 500;
-  transition: all 0.6s ease-in-out;
-  text-decoration: none;
-  &:hover {
-    background: ${({ theme }) => theme.primary};
-    color: ${({ theme }) => theme.text_primary};
-  }
-`;
+// const GithubButton = styled.a`
+//   border: 1px solid ${({ theme }) => theme.primary};
+//   color: ${({ theme }) => theme.primary};
+//   justify-content: center;
+//   display: flex;
+//   align-items: center;
+//   border-radius: 20px;
+//   cursor: pointer;
+//   padding: 10px 20px;
+//   font-size: 16px;
+//   font-weight: 500;
+//   transition: all 0.6s ease-in-out;
+//   text-decoration: none;
+//   &:hover {
+//     background: ${({ theme }) => theme.primary};
+//     color: ${({ theme }) => theme.text_primary};
+//   }
+// `;
 
 const MobileIcon = styled.div`
   height: 100%;
@@ -132,7 +132,7 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to="/">Puneet || NITH'28 CSE</NavLogo>
+        <NavLogo to="/">&lt;Puneet Yadav/&gt;</NavLogo>
 
         <MobileIcon onClick={() => setIsOpen(!isOpen)}>
           <MenuRounded style={{ color: "inherit" }} />
@@ -167,7 +167,7 @@ const Navbar = () => {
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
               Education
             </NavLink>
-            <GithubButton
+            {/* <GithubButton
               href={Bio.github}
               target="_Blank"
               style={{
@@ -176,15 +176,15 @@ const Navbar = () => {
               }}
             >
               Github Profile
-            </GithubButton>
+            </GithubButton> */}
           </MobileMenu>
         )}
 
-        <ButtonContainer>
+        {/* <ButtonContainer>
           <GithubButton href={Bio.github} target="_Blank">
             Github Profile
           </GithubButton>
-        </ButtonContainer>
+        </ButtonContainer> */}
       </NavbarContainer>
     </Nav>
   );
