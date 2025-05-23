@@ -56,15 +56,6 @@ const ViewButton = styled.a`
   }
 `;
 
-const Tags = styled.div`
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 4px;
-`;
-
 const Details = styled.div`
   width: 100%;
   display: flex;
@@ -86,45 +77,6 @@ const Title = styled.div`
   text-align: center;
 `;
 
-const Date = styled.div`
-  font-size: 12px;
-  margin-left: 2px;
-  font-weight: 400;
-  text-align: center;
-  color: ${({ theme }) => theme.text_secondary + 80};
-  @media only screen and (max-width: 768px) {
-    font-size: 10px;
-  }
-`;
-
-const Description = styled.div`
-  font-weight: 400;
-  color: ${({ theme }) => theme.text_secondary + 99};
-  overflow: hidden;
-  margin-top: 8px;
-  display: -webkit-box;
-  max-width: 100%;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  text-overflow: ellipsis;
-`;
-
-const Members = styled.div`
-  display: flex;
-  align-items: center;
-  padding-left: 10px;
-`;
-
-const Avatar = styled.img`
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  margin-left: -10px;
-  background-color: ${({ theme }) => theme.white};
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  border: 3px solid ${({ theme }) => theme.card};
-`;
-
 const CertificatesCard = ({ certificates }) => {
   return (
     <Card>
@@ -135,17 +87,9 @@ const CertificatesCard = ({ certificates }) => {
           View
         </ViewButton>
       </ImageWrapper>
-      <Tags>{/* Optional tags */}</Tags>
       <Details>
         <Title>{certificates.title}</Title>
-        <Date>{certificates.date}</Date>
-        <Description>{certificates.description}</Description>
       </Details>
-      <Members>
-        {certificates.member?.map((member, index) => (
-          <Avatar key={index} src={member.img} />
-        ))}
-      </Members>
     </Card>
   );
 };

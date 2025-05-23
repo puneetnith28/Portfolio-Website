@@ -107,7 +107,6 @@ const ExperienceCard = ({ experience }) => {
         <Body>
           <Role>{experience?.role}</Role>
           <Company>{experience?.company}</Company>
-          {/* <Date>{experience?.date}</Date> */}
         </Body>
       </Top>
       <Description>

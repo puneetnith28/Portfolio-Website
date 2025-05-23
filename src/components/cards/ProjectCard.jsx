@@ -75,13 +75,6 @@ const Title = styled.div`
   text-align: center;
 `;
 
-// const Date = styled.div`
-//   font-size: 12px;
-//   text-align: center;
-//   font-weight: 400;
-//   color: ${({ theme }) => theme.text_secondary + 80};
-// `;
-
 const Description = styled.div`
   font-weight: 400;
   color: ${({ theme }) => theme.text_secondary + 99};
@@ -125,7 +118,6 @@ const ProjectCard = ({ project }) => {
 
       <Details>
         <Title>{project.title}</Title>
-        {/* <Date>{project.date}</Date> */}
         <Description>
           {displayedDescription}
           {project.description.length > 100 && (

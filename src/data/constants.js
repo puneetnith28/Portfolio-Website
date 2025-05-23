@@ -25,17 +25,17 @@ export const skills = [
       },
       {
         name: "HTML",
-        image: "https://i.ibb.co/bwVZShx/htm.webp",
+        image: "https://i.ibb.co/1tTWQcn5/htm.webp",
       },
       {
         name: "CSS",
         image:
-          "https://i.ibb.co/wNxk3wLn/css3.png",
+          "https://i.ibb.co/3YPcFPJ1/css3.png",
       },
       {
         name: "JavaScript",
         image:
-          "https://i.ibb.co/QvdNJ9VG/javascript.webp",
+          "https://i.ibb.co/ycJpKhZ0/javascript.webp",
       },
     ],
   },
@@ -45,17 +45,17 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://i.ibb.co/DDzd6jtJ/git.png",
+          "https://i.ibb.co/Hf4dQDrQ/git.png",
       },
       {
         name: "GitHub",
         image:
-          "https://i.ibb.co/S7dYjsvw/github1.webp",
+          "https://i.ibb.co/5xgWfCk1/github1.webp",
       },
       {
         name: "VS Code",
         image:
-          "https://i.ibb.co/B2t1cH4L/vsCode.png",
+          "hhttps://i.ibb.co/DPPYHFBN/vsCode.png",
       },
       {
         name: "Canva",
@@ -65,7 +65,7 @@ export const skills = [
       {
         name: "Figma",
         image:
-          "https://i.ibb.co/Zpx8kdPt/figma.webp",
+          "https://i.ibb.co/B5QfS7kt/figma.webp",
       },
     ],
   },
@@ -74,7 +74,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://i.ibb.co/LhRqPnVJ/FFE.png",
+    img: "https://i.ibb.co/qFWnS2G1/FFE.png",
     role: "Scholar",
     company: "Foundation For Excellence",
     date: "Mar 2025 - Present",
@@ -83,7 +83,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://i.ibb.co/k2VhdCM0/Reliance.jpg",
+    img: "https://i.ibb.co/bMdchqfz/Reliance.jpg",
     role: "Scholar",
     company: "Reliance Foundation",
     date: "Jan 2025 - Present",
@@ -92,7 +92,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://i.ibb.co/chL31dtx/gdsc1.png",
+    img: "https://i.ibb.co/gMPpFG3m/gdsc1.png",
     role: "Volunteer",
     company: "DSC NIT Hamirpur",
     date: "Jan 2025 - Present",
@@ -144,7 +144,7 @@ export const certificates = [
     id: 0,
     title: "Hack 5.0",
     date: "Apr 2025",
-    image: "https://i.ibb.co/pvdhsYXR/certi.jpg",
+    image: "https://i.ibb.co/r23hvqKS/certi.jpg",
     category: "participation",
     link: "https://drive.google.com/file/d/1xZJmUUpSGYICy1rhknnzBPRGgU2vwX3N/view",
   },
@@ -157,7 +157,7 @@ export const projects = [
     description:
       "A clean, responsive weather application built using HTML, CSS, and JavaScript. It fetches real-time weather data based on the city name input and displays the current weather, humidity, wind speed, and a 4-day forecast. The app also handles errors gracefully when an invalid city is entered.",
     image:
-      "https://i.ibb.co/0pkJKy4W/Screenshot-2025-05-22-140236.png",
+      "https://i.ibb.co/TBwmgCtD/Screenshot-2025-05-22-140236.png",
     category: "web app",
     github: "https://github.com/puneetnith28/Weather-App",
     liveLink: "https://appweatherpy.netlify.app/",
@@ -168,7 +168,7 @@ export const projects = [
     description:
       "A responsive and user-friendly quiz web application built using HTML, CSS, and JavaScript. It allows users to select from multiple categories and test their knowledge in a fun and interactive way.",
     image:
-      "https://i.ibb.co/Y4Wj4Ycp/Screenshot-2025-05-22-141811.png",
+      "https://i.ibb.co/MbSZwnj/Screenshot-2025-05-22-141811.png",
     category: "web app",
     github: "https://github.com/puneetnith28/Quiz-App",
     liveLink: "https://uizsapp.netlify.app/",
@@ -179,7 +179,7 @@ export const projects = [
     description:
       "A responsive, visually appealing, and fully functional calculator built using HTML, CSS, and JavaScript. It supports basic arithmetic operations with a modern and intuitive design.",
     image:
-      "https://i.ibb.co/8gp20PxX/Screenshot-2025-05-22-143508.png",
+      "https://i.ibb.co/0j1q2cJd/Screenshot-2025-05-22-143508.png",
     category: "web app",
     github: "https://github.com/puneetnith28/Calculator",
     liveLink: "https://arithmaticcalci.netlify.app/",
@@ -188,9 +188,9 @@ export const projects = [
     id: 3,
     title: "Portfolio",
     description:
-      "A responsive and user-friendly quiz web application built using HTML, CSS, and JavaScript. It allows users to select from multiple categories and test their knowledge in a fun and interactive way.",
+      "A personal portfolio website developed while learning React.js to present my skills, projects, experience and all. It features a clean, responsive design with smooth navigation and interactive components. Building this project helped me grasp core React concepts like components, props, state, and many things.",
     image:
-      "https://i.ibb.co/CsBgGn1V/Screenshot-2025-05-22-143831.png",
+      "https://i.ibb.co/0j53X5b0/Screenshot-2025-05-23-200505.png",
     category: "web app",
     github: "https://github.com/puneetnith28/Portfolio-Website",
     liveLink: "https://uizsapp.netlify.app/",

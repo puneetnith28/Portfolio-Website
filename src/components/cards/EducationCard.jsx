@@ -37,15 +37,6 @@ const Degree = styled.div`
     font-size: 12px;
   }
 `;
-// const Date = styled.div`
-//   font-size: 12px;
-//   font-weight: 400px;
-//   color: ${({ theme }) => theme.text_secondary + 80};
-
-//   @media only screen and (max-width: 768px) {
-//     font-size: 10px;
-//   }
-// `;
 
 const Description = styled.div`
   width: 100%;
@@ -104,7 +95,6 @@ const EducationCard = ({ education }) => {
         <Body>
           <School>{education?.school}</School>
           <Degree>{education?.degree}</Degree>
-          {/* <Date>{education?.date}</Date> */}
         </Body>
       </Top>
       <Grade>
