@@ -193,6 +193,6 @@ export const projects = [
       "https://i.ibb.co/0j53X5b0/Screenshot-2025-05-23-200505.png",
     category: "web app",
     github: "https://github.com/puneetnith28/Portfolio-Website",
-    liveLink: "https://uizsapp.netlify.app/",
+    liveLink: "https://puneetyportfolio.netlify.app/",
   },
 ];
