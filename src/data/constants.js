@@ -8,7 +8,7 @@ export const Bio = {
   description:
     "I’m an explorer in the world of technology, constantly learning and building.I have a strong passion for Web development and UI/UX designing. I enjoy experimenting with new ideas, always looking for ways to improve and grow.",
   resume:
-    "https://drive.google.com/file/d/1jg1rP_IpV5-FNu3RqqE3SbEwo9tbyC8U/view?usp=drive_link",
+    "https://drive.google.com/file/d/1VGcH1d5F3mWbYKzhcPJuPQlJ79wN7O4a/view?usp=sharing",
   linkedin:
     "https://www.linkedin.com/in/puneet-yadav-541166325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
   insta: "https://www.instagram.com/puneetyadav1625?igsh=MWk5d2ViMTA3YWt1bg==/",
