@@ -175,17 +175,6 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Calculator",
-    description:
-      "A responsive, visually appealing, and fully functional calculator built using HTML, CSS, and JavaScript. It supports basic arithmetic operations with a modern and intuitive design.",
-    image:
-      "https://i.ibb.co/0j1q2cJd/Screenshot-2025-05-22-143508.png",
-    category: "web app",
-    github: "https://github.com/puneetnith28/Calculator",
-    liveLink: "https://arithmaticcalci.netlify.app/",
-  },
-  {
-    id: 3,
     title: "Portfolio",
     description:
       "A personal portfolio website developed while learning React.js to present my skills, projects, experience and all. It features a clean, responsive design with smooth navigation and interactive components. Building this project helped me grasp core React concepts like components, props, state, and many things.",
