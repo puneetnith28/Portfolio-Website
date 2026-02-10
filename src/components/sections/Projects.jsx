@@ -51,49 +51,49 @@ const Desc = styled.div`
   }
 `;
 
-const ToggleButtonGroup = styled.div`
-  display: flex;
-  border: 1.5px solid ${({ theme }) => theme.primary};
-  color: ${({ theme }) => theme.primary};
-  font-size: 16px;
-  border-radius: 25px;
-  font-weight: 500;
-  margin: 22px 0;
-  overflow: hidden;
-  @media (max-width: 768px) {
-    font-size: 12px;
-  }
-`;
+// const ToggleButtonGroup = styled.div`
+//   display: flex;
+//   border: 1.5px solid ${({ theme }) => theme.primary};
+//   color: ${({ theme }) => theme.primary};
+//   font-size: 16px;
+//   border-radius: 25px;
+//   font-weight: 500;
+//   margin: 22px 0;
+//   overflow: hidden;
+//   @media (max-width: 768px) {
+//     font-size: 12px;
+//   }
+// `;
 
-const ToggleButton = styled.div`
-  padding: 10px 24px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  user-select: none;
-  background: ${({ active, theme }) => (active ? theme.primary : "transparent")};
-  color: ${({ active, theme }) => (active ? "white" : theme.primary)};
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+// const ToggleButton = styled.div`
+//   padding: 10px 24px;
+//   cursor: pointer;
+//   transition: all 0.3s ease;
+//   user-select: none;
+//   background: ${({ active, theme }) => (active ? theme.primary : "transparent")};
+//   color: ${({ active, theme }) => (active ? "white" : theme.primary)};
+//   font-weight: 600;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
 
-  &:hover {
-    background: ${({ active, theme }) =>
-      active ? theme.primary : theme.primary + "33"}; /* 20% opacity */
-    color: ${({ active, theme }) => (active ? "white" : theme.primary)};
-  }
+//   &:hover {
+//     background: ${({ active, theme }) =>
+//       active ? theme.primary : theme.primary + "33"}; /* 20% opacity */
+//     color: ${({ active, theme }) => (active ? "white" : theme.primary)};
+//   }
 
-  @media (max-width: 768px) {
-    padding: 8px 12px;
-  }
-`;
+//   @media (max-width: 768px) {
+//     padding: 8px 12px;
+//   }
+// `;
 
-const Divider = styled.div`
-  width: 1.5px;
-  background: ${({ theme }) => theme.primary};
-  opacity: 0.3;
-  margin: 8px 0;
-`;
+// const Divider = styled.div`
+//   width: 1.5px;
+//   background: ${({ theme }) => theme.primary};
+//   opacity: 0.3;
+//   margin: 8px 0;
+// `;
 
 const CardContainer = styled.div`
   display: flex;
@@ -105,7 +105,7 @@ const CardContainer = styled.div`
 `;
 
 const Projects = () => {
-  const [toggle, setToggle] = useState("all");
+  const [toggle] = useState("all");
 
   const filteredProjects =
     toggle === "all"
@@ -120,7 +120,7 @@ const Projects = () => {
           These projects highlight my ability to explore, build, and enhance ideas through hands-on experience.
         </Desc>
 
-        <ToggleButtonGroup>
+        {/* <ToggleButtonGroup>
           <ToggleButton active={toggle === "all"} onClick={() => setToggle("all")}>
             ALL
           </ToggleButton>
@@ -136,9 +136,9 @@ const Projects = () => {
             active={toggle === "android app"}
             onClick={() => setToggle("android app")}
           >
-            UI/UX
+            OPEN SOURCE
           </ToggleButton>
-        </ToggleButtonGroup>
+        </ToggleButtonGroup> */}
 
         <CardContainer>
           {filteredProjects.map((project) => (

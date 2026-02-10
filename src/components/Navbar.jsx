@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link as LinkR } from "react-router-dom";
 import styled from "styled-components";
+import { Bio } from "../data/constants";
 import { MenuRounded } from "@mui/icons-material";
 
 const Nav = styled.div`
@@ -70,6 +71,52 @@ const MobileIcon = styled.div`
   }
 `;
 
+const NavRight = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+const NavButton = styled.a`
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+
+  padding: 10px 18px;
+  max-width: 180px;
+  text-align: center;
+  background: hsla(271, 100%, 50%, 1);
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+
+  &:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+  }
+`;
+
+const MobileNavButton = styled.a`
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+
+  width: 100%;
+  text-align: center;
+  padding: 12px 0;
+  background: hsla(271, 100%, 50%, 1);
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+`;
+
 const MobileMenu = styled.ul`
   width: 100%;
   display: flex;
@@ -101,17 +148,24 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to="/">&lt;Puneet Yadav/&gt;</NavLogo>
 
-        <MobileIcon onClick={() => setIsOpen(!isOpen)}>
-          <MenuRounded style={{ color: "inherit" }} />
-        </MobileIcon>
-
         <NavItems>
           <NavLink href="#Skills">Skills</NavLink>
           <NavLink href="#Experience">Experience</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
-          <NavLink href="#Certificates">Certificates</NavLink>
+          <NavLink href="#Blogs">Blogs</NavLink>
+          {/* <NavLink href="#Certificates">Certificates</NavLink> */}
           <NavLink href="#Education">Education</NavLink>
         </NavItems>
+
+        <NavRight>
+          <NavButton href={Bio.github} target="_blank" rel="noopener noreferrer">
+            GitHub
+          </NavButton>
+        </NavRight>
+
+        <MobileIcon onClick={() => setIsOpen(!isOpen)}>
+          <MenuRounded style={{ color: "inherit" }} />
+        </MobileIcon>
 
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
@@ -124,12 +178,23 @@ const Navbar = () => {
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Projects">
               Projects
             </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Certificates">
-              Certificates
+            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Blogs">
+              Blogs
             </NavLink>
+            {/* <NavLink onClick={() => setIsOpen(!isOpen)} href="#Certificates">
+              Certificates
+            </NavLink> */}
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
               Education
             </NavLink>
+            <MobileNavButton
+              href={Bio.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              GitHub Profile
+            </MobileNavButton>
           </MobileMenu>
         )}
       </NavbarContainer>

@@ -44,8 +44,11 @@ The portfolio is designed for developers, engineers, and tech enthusiasts who wa
 - ✅ **Project Gallery** with live links and GitHub repositories
 - ✅ **Certificates Section** to highlight achievements
 - ✅ **Education Timeline** showing academic background
+- ✅ **Contact Footer** with social media integration
+- ✅ **Smooth Scroll Navigation** with sticky navbar
 - ✅ **Mobile-Responsive Menu** with hamburger icon
-
+- ✅ **Framer Motion Animations** for elegant page transitions
+- ✅ **Theme Support** with styled-components theming system
 
 ### Technical Features
 
@@ -60,6 +63,7 @@ The portfolio is designed for developers, engineers, and tech enthusiasts who wa
 
 ## 🛠️ Tech Stack
 
+<<<<<<< HEAD
 ### Frontend
 - React.js
 - React Router
@@ -74,4 +78,45 @@ The portfolio is designed for developers, engineers, and tech enthusiasts who wa
 
 
 
+=======
+### Frontend Framework & Libraries
+
+| Technology | Version | Purpose |
+|-----------|---------|---------|
+| **React.js** | 18.2.0 | Core frontend framework |
+| **React DOM** | 18.2.0 | DOM rendering |
+| **React Router DOM** | 6.22.1 | Client-side routing |
+| **Styled Components** | 6.1.8 | CSS-in-JS styling |
+
+### 3D Graphics & Animation
+
+| Technology | Version | Purpose |
+|-----------|---------|---------|
+| **Three.js** | 0.161.0 | 3D graphics library |
+| **@react-three/fiber** | 8.15.16 | React renderer for Three.js |
+| **@react-three/drei** | 9.99.0 | Helper components for R3F |
+| **Framer Motion** | 11.0.5 | Animation library |
+| **maath** | 0.10.7 | Math utilities for 3D |
+
+### UI Components & Utilities
+
+| Technology | Version | Purpose |
+|-----------|---------|---------|
+| **Material-UI** | 5.15.10 | UI components library |
+| **React Icons** | 5.5.0 | Icon library |
+| **React Vertical Timeline** | 3.6.0 | Timeline component |
+| **React Tilt** | 1.0.2 | Tilt effect component |
+| **Typewriter Effect** | 2.21.0 | Typing animation |
+| **React Scroll** | 1.9.0 | Smooth scrolling |
+
+
+### Build Tools
+
+| Technology | Version | Purpose |
+|-----------|---------|---------|
+| **React Scripts** | 5.0.1 | Build configuration |
+| **Web Vitals** | 2.1.4 | Performance metrics |
+
+---
+>>>>>>> eb3f2a0 (Updating)
 
