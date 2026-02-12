@@ -259,7 +259,7 @@ export const blogs = [
     description:
       "A comprehensive guide to understanding the Bitcoin mempool, its role in transaction processing, and how it affects transaction confirmation times. This blog provides insights into the inner workings of the mempool and its impact on the Bitcoin network.",
     image: "https://i.ibb.co/PZWVWJ07/photomempool.avif",
-    link: "https://medium.com/@puneetjnv28/understanding-the-bitcoin-mempool-1234567890ab",
+    link: "https://medium.com/@puneetjnv28/8900393f9a5d",
     date: "Feb 12, 2026",
     tags: ["mempool"],
   },
