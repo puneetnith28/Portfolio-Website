@@ -73,11 +73,6 @@ export const skills = [
           "https://i.ibb.co/5xgWfCk1/github1.webp",
       },
       {
-        name: "VS Code",
-        image:
-          "https://i.ibb.co/DPPYHFBN/vsCode.png",
-      },
-      {
         name: "Canva",
         image:
           "https://i.ibb.co/ynJTtMLT/canva-logo.png",
@@ -112,7 +107,7 @@ export const experiences = [
     img: "https://i.ibb.co/6R5hVZd3/images-2.jpg",
     role: "Contributor",
     company: "Social Winter of Code",
-    date: "Jan 2026 - Present",
+    date: "Jan 2026 - Feb 2026",
     desc: "Merged 7 pull requests across multiple repositories, with key contributions to the BrowsePing Chrome Extension. Focused on feature development, bug fixes, and code quality improvements.",
     skills: ["Open Source Contribution", "Networking", "Collaboration"],
   },
